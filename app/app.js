@@ -42,8 +42,8 @@ router.route('/calc/sum').post((req, res) => {
     })
   })
   
-server.listen(5555, '0.0.0.0',
-  () => {
-    console.log('Running at at localhost:5555')
+server.listen(3000, function ()
+ {
+    console.log('Running at at localhost:3000')
   }
 )
