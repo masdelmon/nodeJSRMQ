@@ -1,7 +1,7 @@
 var amqp = require('amqplib/callback_api')
 
 module.exports = (callback) => {
-  amqp.connect('amqp://guest:guest@192.168.0.29:5672',
+  amqp.connect('amqp://guest:guest@192.168.0.28:5672',
     (error, conection) => {
     if (error) {
       throw new Error(error);
