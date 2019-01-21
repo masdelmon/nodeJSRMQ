@@ -1,7 +1,7 @@
 var amqp = require('amqplib/callback_api')
 
 module.exports = (callback) => {
-  amqp.connect("amqp://guest:bh331g49_bh34d4gv0j3g00aqhjsg@ip172-18-0-16-bh331g49cs9g00eamsdg-8080.direct.labs.play-with-docker.com/guest"  ,
+  amqp.connect("amqp://vdhanbyv:96X39wT3G1V8heUT5iCiL8XTWtIolvc0@crane.rmq.cloudamqp.com/vdhanbyv"  ,
     (error, conection) => {
     if (error) {
       throw new Error(error);
